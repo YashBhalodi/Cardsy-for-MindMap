@@ -51,7 +51,7 @@ async function generateCards(selectedWidget) {
         title: item.text,
         style: { backgroundColor: item.style.textColor },
         type: "CARD",
-        x: item.x + 500.0,
+        x: item.x + 1500.0,
         y: item.y,
       };
     });
